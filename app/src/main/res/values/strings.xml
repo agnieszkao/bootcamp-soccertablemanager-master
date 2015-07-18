@@ -1,13 +1,26 @@
 <resources>
     <string name="app_name">SoccerTableManager</string>
 
+    <string name="registration">Registration</string>
     <string name="register">Register</string>
-    <string name="username">Enter your name</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
 
+    <string name="username">Enter your name</string>
     <string name="table">Create table</string>
     <string name="time">Enter an hour (hh:mm)</string>
 
+
     <string name="table_already_taken">Table is already taken</string>
-    <string name="error">Something went wrong..</string>
+    <string name="error">Something went wrong. Go to settings and check if you are registered.</string>
     <string name="table_number">Number of table that you have created is: </string>
+    <string name="cannot_join">You cannot join to this table</string>
+
+    <string name="hour">Hour</string>
+    <string name="users">Users</string>
+    <string name="free_spots">Free spots</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 </resources>

@@ -49,7 +49,7 @@ public class TableListAdapter extends ArrayAdapter<Table> {
                 String names = "";
                 for (String name : userNameList) {
                     if (names.length() != 0) {
-                        names += ", ";
+                        names += "\n";
                     }
                     names += name;
                 }
