@@ -157,8 +157,6 @@ public class RegisterActivity extends AppCompatActivity {
     private void getTables() {
         refreshListOfTables();
         mAdapter = new TableListAdapter(getApplicationContext(), mTableList);
-        View header = getLayoutInflater().inflate(R.layout.list_view_header, null, false);
-        mTableListView.addHeaderView(header, null, false);
         mTableListView.setAdapter(mAdapter);
     }
 
